@@ -2,7 +2,11 @@
 ### A file based key,value pair data storage with the following constraints
 * The key is always a string capped at 32 characters
 * The value should be always a json object
-
+# Depenencies
+```ruby
+ruby-2.7.2p137
+Bundler version 2.2.3
+```
 # Usage
 
 **Add fkv.rb to your working .rb file**
