@@ -9,9 +9,10 @@
 ``` ruby
 require_relative 'path_to_fkv.rb'
 ```
-**Provide path to your custom data store. File store must be with .json, as it is a (key, value) file store. If path is not provided then the default path to data store is tmp/store.json**
+**Provide path to your custom data store. File store must be with .json extension, as it is a (key, value) file store. If path is not provided then the default path to data store is tmp/store.json**
 ``` ruby
-object = Fkv::Dstore.new(path: "path_to_your_data_store.json") # 
+object = Fkv::DStore.new(path: "path_to_your_data_store.json") # path is optional
+#object = Fkv::Dstore.new
 ```
 **Operations on data store**
 * **read:** Provide a key to get respective value from data store
