@@ -7,7 +7,7 @@ require 'time'
 #Monkey patching
 class String
     def is_valid?
-        return false unless self.length <= 32
+        return false unless self.length == 32
         true
     end
 end
