@@ -4,8 +4,8 @@
 * The value should be always a json object
 # Depenencies
 ```ruby
-ruby-2.7.2p137
-Bundler version 2.2.3
+ruby version: ruby-2.7.2p137
+Bundler version: 2.2.3
 ```
 # Usage
 
