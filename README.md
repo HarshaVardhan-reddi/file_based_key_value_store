@@ -2,6 +2,8 @@
 ### A file based key,value pair data storage with the following constraints
 * The key is always a string capped at 32 characters
 * The value should be always a json object
+* The size of data store must not exceed 1GB
+* Duplicate keys are not allowed
 # Dependencies
 ```ruby
 ruby: 2.7.2

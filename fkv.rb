@@ -67,7 +67,7 @@ module Fkv
 
         def create(data: , ttl: nil) 
             begin
-                raise "Size of file can't be greater than 1 gb" if File.size(@path) >= @limit
+                raise "Size of file can't be greater than 1 gb" if File.size(@path) > @limit
                 raise "Data can't be nil" if data.nil? || data.empty?
                 read_thread.join
                 data_in_store = JSON.parse(self.raw_data)
